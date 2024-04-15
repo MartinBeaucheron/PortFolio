@@ -84,7 +84,7 @@ header {
 .content h1 {
   font-size: 8rem;
   font-weight: 600;
-  -webkit-text-stroke: 2px rgb(3, 66, 80, 0.9);
+  -webkit-text-stroke: 3px rgb(36, 28, 186);
   color: transparent;
   transition: all 0.5s ease;
 }
