@@ -49,7 +49,13 @@
         </p></br>
         <img src="img/capture code creerBoutons.png" class="image-Presentation"></br>
         <p>
-            Les boutons sont généré à partir d'un fichier CSV qui contient toute les coordonées des emplacements.
+            Les boutons sont généré à partir d'un fichier CSV qui contient toute les coordonées des emplacements. Le fichier est désérialisé a partir d'une classe qui s'appelle deserialise fichier. Dès lors que la communication est lancé l'application envoie les coordonées du dernier bouton qui a été cliqué grace a la classe communication ci dessous:
+
+        </p></br>
+        
+        <img src="img/capture code classeCom send.png" class="image-Presentation"></br>
+        <p>
+            A partir de la classe message on va créer la trame qui sera envoyer au serveur en lui passant en paramètre les coordonées ainsi que les informations nécessaire pour l'envoie de celle ci. Pour finir on va tout simplement l'envoyer au serveur distant pour effectuer les test.
         </p>
     </section>
 </body>
