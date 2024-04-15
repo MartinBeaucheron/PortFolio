@@ -156,7 +156,8 @@ header {
 }
 
 .background-image {
-  position: absolute;
+  position:fixed;
+
   right: 0;
   bottom: 0;
   z-index: -1;
@@ -314,4 +315,10 @@ header {
 
 .section-contacter{
   margin-top: 10px;
+}
+.image-Presentation{
+  margin: auto;
+  height: auto;
+  width: 100%;
+  text-align: center;
 }
