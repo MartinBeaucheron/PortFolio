@@ -94,6 +94,7 @@ header {
   /* -webkit-text-stroke: 2px rgb(3, 66, 80); */
   /* color :	rgb(0,0,128); */
   transition: all 0.5s ease;
+  text-align: center;
 }
 .content p{
   -webkit-text-stroke: 1px rgb(3, 66, 80, 0.9);
@@ -321,4 +322,22 @@ header {
   height: auto;
   width: 100%;
   text-align: center;
+}
+
+.image-competence{
+  height: 200px;
+  width: auto;
+}
+
+.texte-plus-gros{
+  font-size: 3rem;
+}
+
+.img-plus-petit{
+  height: 100px;
+  width: auto;
+}
+
+.a-gauche{
+  text-align: left;
 }
