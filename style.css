@@ -84,8 +84,8 @@ header {
 .content h1 {
   font-size: 8rem;
   font-weight: 600;
-  -webkit-text-stroke: 3px rgb(36, 28, 186);
-  color: transparent;
+  -webkit-text-stroke: 4px rgb(255, 135, 135);
+  color: rgb(255, 135, 135);
   transition: all 0.5s ease;
 }
 .content h2{
@@ -121,7 +121,7 @@ header {
   content: "";
   position: absolute;
   background-image: conic-gradient(
-    rgb(3, 66, 80, 0.9) 20deg,
+    rgba(148, 0, 96, 0.9) 20deg,
     transparent 150deg
   );
   width: 400%;
